@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GaBru-Fale com nós</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<!-- Seu código vai aqui!! -->
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: red;">
+    <div class="btn-group">
+      <button type="button" class="btn btn- dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: red;">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-menu dropdown-menu-right" style="background-color:; font: black;">
+
+        <li class="nav-item" style="list-style-type: none">
+          <img src="img/gabru.jpg" style="width: 15rem; height: 13rem;">
+        </li>
+        <li class="nav-item" style="list-style-type: none">
+          <a class="nav-link" href="horos.html">Horóscopo</a>
+        </li>
+        <li class="nav-item" style="list-style-type: none">
+          <a class="nav-link" href="musica.html">Música</a>
+        </li>
+      </div>
+    </div>
+    <a href="login (1).html" class="text-dark"><i class="fas fa-envelope"></i></a>
+    <img src="img/gb.png" style="margin-left: 38%;height: 15%;width: 7%;">
+    <a class="navbar-brand text-white" href="paginainicial.html" style="font-size: 40px; ">GaBru</a>
+
+  </nav>
+	<div class="container">
+   
+          <div class="card card-register my-5">
+            <div class="card-header">
+            <form>
+             <div class="row">
+                <div class="col">
+                        <div  style="width: 18rem;">
+                          <img class="card-img-top" src="img/bruna.jpeg" style=""class="rounded float-left">
+                          <div class="card-body">
+                            <p class="card-text"><a href="https://www.instagram.com/bru_lomes/">@bru_lomes</a></p>
+                          </div>
+                        </div>
+                </div>
+                <div class="col-4">
+                        <div style="width: 18rem;">
+                          <img class="card-img-top" src="img/gab.jpg" class="rounded float-left">
+                          <div class="card-body">
+                            <p class="card-text"><a href="https://www.instagram.com/gabrielle.moro/">@gabrielle.moro</a></p>
+                          </div>
+                        </div>
+                </div>
+              </div>
+                <div class="card-body">
+                  <h1 style="text-align: center;">Nos envie notícias <i class="fas fa-arrow-alt-circle-down"></i></h1>
+
+                  <div class="row">
+                    <div class="col">
+                      
+                      <input type="text" class="form-control" id="nome" name="" placeholder="Informe seu nome de usuário">
+                    </div>
+                  </div>
+                    <div class="row my-3">
+                      <div class="col">
+                       	<input type="text" class="form-control" id="telephone" name="" placeholder="Informe seu telefone" required>
+                      </div>
+                    </div>
+                    <div class="row my-3">
+                      <div class="col">
+                        <input type="text" class="form-control" id="email" name="" placeholder="Coloque seu e-mail" required>
+                      </div>
+                    </div>
+                    <div class="row my-3">
+                      <div class="col">
+                        <input type="password" class="form-control" id="password" name="" required placeholder="Coloque sua senha">
+                      </div>
+                    </div>
+                    <div class="row">
+                    	<div class="col">
+                    		<textarea name="opniao" rows="5" cols="40" placeholder="Digite suas informações..."></textarea> <br>
+                    	</div>
+                    </div>
+                    <button class="btn btn-lg btn-info btn-block my-3" type="reset">Limpar</button>
+                    <button class="btn btn-lg btn-danger btn-block my-3" type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="./assets/js/vendor/jquery-slim.min.js"></script>
+  <script src="./assets/js/vendor/popper.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/vendor/holder.min.js"></script>
+  <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+  </html>
